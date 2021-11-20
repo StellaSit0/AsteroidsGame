@@ -20,7 +20,7 @@ public void draw(){
 }
 public void keyPressed(){
   if(key=='a'||key=='A'){
-    bob.turn(-15);
+    bob.turn(15);
   }
   if(key=='d'||key=='D'){
     bob.turn(-15);
